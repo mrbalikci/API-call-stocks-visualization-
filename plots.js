@@ -32,7 +32,7 @@ function handleSubmit() {
 }
 
 function buildPlot(stock) {
-    var apiKey = "knMnRdxve7cL5MSFf39V"
+    var apiKey = "****Rdxve7cL5MSFf39V"
     var url = `https://www.quandl.com/api/v3/datasets/WIKI/${stock}.json?start_date=2016-10-01&end_date=2018-02-09&api_key=${apiKey}`;
 
     Plotly.d3.json(url, function (error, response) {
